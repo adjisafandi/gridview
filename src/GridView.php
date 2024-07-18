@@ -1,8 +1,8 @@
 <?php
 
-namespace DnaWeb\GridView;
+namespace DnaWeb\Gridview;
 
-use DnaWeb\GridView\DataTableQuery;
+use DnaWeb\Gridview\GridViewQuery;
 use Illuminate\Support\Facades\DB;
 
 class GridView{
@@ -20,7 +20,7 @@ class GridView{
 
         $args = func_get_args();
 
-        return call_user_func_array([DataTableQuery::class, 'create'], $args);
+        return call_user_func_array([GridViewQuery::class, 'create'], $args);
     }
 
 	public static function filter(){

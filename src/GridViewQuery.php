@@ -1,11 +1,11 @@
 <?php
 
-namespace DnaWeb\GridView;
+namespace DnaWeb\Gridview;
 
-use DnaWeb\GridView\DataTableAbstract;
+use DnaWeb\Gridview\GridViewAbstract;
 use Illuminate\Support\Facades\DB;
 
-class DataTableQuery extends DataTableAbstract{
+class GridViewQuery extends GridViewAbstract{
 
     protected $source = [];
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace DnaWeb\GridView;
+namespace DnaWeb\Gridview;
 
-use DnaWeb\GridView\Utils;
+use DnaWeb\Gridview\Utils;
 use Illuminate\Support\Facades\Schema;
 
-abstract class DataTableAbstract{
+abstract class GridViewAbstract{
 
     protected $columnDef = [
         'append' => []
