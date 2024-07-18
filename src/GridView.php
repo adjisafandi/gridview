@@ -1,8 +1,8 @@
 <?php
 
-namespace DnaWeb\Gridview;
+namespace Dnaweb\Gridview;
 
-use DnaWeb\Gridview\GridViewQuery;
+use Dnaweb\Gridview\GridViewQuery;
 use Illuminate\Support\Facades\DB;
 
 class GridView{

@@ -1,8 +1,8 @@
 <?php
 
-namespace DnaWeb\Gridview;
+namespace Dnaweb\Gridview;
 
-use DnaWeb\Gridview\Utils;
+use Dnaweb\Gridview\Utils;
 use Illuminate\Support\Facades\Schema;
 
 abstract class GridViewAbstract{

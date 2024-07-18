@@ -1,6 +1,6 @@
 <?php
 
-namespace DnaWeb\Gridview;
+namespace Dnaweb\Gridview;
 
 class Utils{
 
